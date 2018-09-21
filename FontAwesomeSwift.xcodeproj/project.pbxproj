@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260C9EFB21550F9000F1584C /* fa-solid-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 260C9EFA21550F9000F1584C /* fa-solid-900.ttf */; };
+		260C9EFD21550FF600F1584C /* updatetool.py in Resources */ = {isa = PBXBuildFile; fileRef = 260C9EFC21550FF600F1584C /* updatetool.py */; };
 		9C1D57E01E27FE9F00DAFD50 /* FontAwesomeSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1D57DE1E27FE9F00DAFD50 /* FontAwesomeSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C1D57F11E27FEDA00DAFD50 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9C1D57E61E27FEDA00DAFD50 /* LICENSE */; };
 		9C1D57F21E27FEDA00DAFD50 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9C1D57E71E27FEDA00DAFD50 /* README.md */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		260C9EFA21550F9000F1584C /* fa-solid-900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-solid-900.ttf"; sourceTree = "<group>"; };
+		260C9EFC21550FF600F1584C /* updatetool.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = updatetool.py; sourceTree = "<group>"; };
 		9C1D57DB1E27FE9F00DAFD50 /* FontAwesomeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1D57DE1E27FE9F00DAFD50 /* FontAwesomeSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontAwesomeSwift.h; sourceTree = "<group>"; };
 		9C1D57DF1E27FE9F00DAFD50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 		9C1D57EC1E27FEDA00DAFD50 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				260C9EFA21550F9000F1584C /* fa-solid-900.ttf */,
 				9C1D57ED1E27FEDA00DAFD50 /* FAIcon.swift */,
 				9C1D57EE1E27FEDA00DAFD50 /* FontAwesome.ttf */,
 			);
@@ -95,6 +100,7 @@
 		9C1D57EF1E27FEDA00DAFD50 /* tools */ = {
 			isa = PBXGroup;
 			children = (
+				260C9EFC21550FF600F1584C /* updatetool.py */,
 				9C1D57F01E27FEDA00DAFD50 /* update_tool.php */,
 			);
 			path = tools;
@@ -175,7 +181,9 @@
 				9C1D57F11E27FEDA00DAFD50 /* LICENSE in Resources */,
 				9C1D57F81E27FEDA00DAFD50 /* update_tool.php in Resources */,
 				9C1D57F31E27FEDA00DAFD50 /* helper.png in Resources */,
+				260C9EFD21550FF600F1584C /* updatetool.py in Resources */,
 				9C1D57F51E27FEDA00DAFD50 /* opensource_matters.png in Resources */,
+				260C9EFB21550F9000F1584C /* fa-solid-900.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
